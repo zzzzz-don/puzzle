@@ -14,6 +14,9 @@
 		F60382F01BCB530A003F3B0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60382EF1BCB530A003F3B0D /* Images.xcassets */; };
 		F60382F31BCB530A003F3B0D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F60382F11BCB530A003F3B0D /* LaunchScreen.xib */; };
 		F60382FF1BCB530A003F3B0D /* puzzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F60382FE1BCB530A003F3B0D /* puzzleTests.m */; };
+		F60383091BCB5614003F3B0D /* inu.png in Resources */ = {isa = PBXBuildFile; fileRef = F60383081BCB5614003F3B0D /* inu.png */; };
+		F603830B1BCB562D003F3B0D /* kiji.png in Resources */ = {isa = PBXBuildFile; fileRef = F603830A1BCB562D003F3B0D /* kiji.png */; };
+		F603830D1BCB5639003F3B0D /* saru.png in Resources */ = {isa = PBXBuildFile; fileRef = F603830C1BCB5639003F3B0D /* saru.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		F60382F81BCB530A003F3B0D /* puzzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = puzzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60382FD1BCB530A003F3B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F60382FE1BCB530A003F3B0D /* puzzleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = puzzleTests.m; sourceTree = "<group>"; };
+		F60383081BCB5614003F3B0D /* inu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inu.png; sourceTree = "<group>"; };
+		F603830A1BCB562D003F3B0D /* kiji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kiji.png; sourceTree = "<group>"; };
+		F603830C1BCB5639003F3B0D /* saru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saru.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 		F60382E11BCB530A003F3B0D /* puzzle */ = {
 			isa = PBXGroup;
 			children = (
+				F603830C1BCB5639003F3B0D /* saru.png */,
+				F603830A1BCB562D003F3B0D /* kiji.png */,
+				F60383081BCB5614003F3B0D /* inu.png */,
 				F60382E61BCB530A003F3B0D /* AppDelegate.h */,
 				F60382E71BCB530A003F3B0D /* AppDelegate.m */,
 				F60382E91BCB530A003F3B0D /* ViewController.h */,
@@ -200,7 +209,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F60382EE1BCB530A003F3B0D /* Main.storyboard in Resources */,
+				F603830B1BCB562D003F3B0D /* kiji.png in Resources */,
+				F603830D1BCB5639003F3B0D /* saru.png in Resources */,
 				F60382F31BCB530A003F3B0D /* LaunchScreen.xib in Resources */,
+				F60383091BCB5614003F3B0D /* inu.png in Resources */,
 				F60382F01BCB530A003F3B0D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

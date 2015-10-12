@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UIImage *imageData = [UIImage imageNamed:@"inu.png"];
+    
+    UIImageView *iv = [[UIImageView alloc] init];
+    iv.frame = CGRectMake(10, 20, 200, 300);
+    [self.view addSubview:iv];
+    
+    iv.image = imageData;
 }
 
 - (void)didReceiveMemoryWarning {
